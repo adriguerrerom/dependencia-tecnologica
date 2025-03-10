@@ -1,0 +1,42 @@
+/* Establecer la fuente y el fondo general */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #5988FF; /* Azul */
+    color: #FFFFFF; /* Blanco */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para los títulos */
+h1 {
+    color: #FD98FB; /* Rosa */
+    font-size: 36px;
+}
+
+h2 {
+    color: #D6FF6B; /* Verde */
+    font-size: 28px;
+}
+
+/* Estilo para la lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Estilo para la imagen */
+img {
+    width: 80%;
+    max-width: 600px;
+    border: 5px solid #FFFFFF; /* Borde blanco */
+    border-radius: 15px;
+    margin-top: 20px;
+}
